@@ -1,2 +1,0 @@
-# MGKV-University
-Website
