@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahatma Gandhi Kashi Vidyapith, Varanasi - Entrance Examination 2024-25 Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e6ffe6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .header {
+      background-color: #00308F;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    .title {
+      font-size: 1.2em;
+    }
+    .contact {
+      font-size: 0.8em;
+      text-align: right;
+      margin-left: auto; /* Move contact section to the right */
+    }
+    .nav {
+      background-color: #004AAD;
+      padding: 10px;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      cursor: pointer; /* Change cursor to pointer for links */
+    }
+    .content {
+      flex-grow: 1;
+      display: flex;
+      padding: 20px;
+    }
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1; /* Allow the wrapper to use full available space */
+      align-items: flex-start; /* Align items at the top */
+    }
+    .image-container {
+      flex: 1;
+      margin-right: 20px;
+      max-width: 48%; /* Keep the width below 50% */
+      box-sizing: border-box; /* Prevent padding from affecting width */
+    }
+    .image-container img {
+      width: 100%;
+      height: auto; /* Maintain aspect ratio */
+    }
+    .data-section {
+      flex: 1; /* Use remaining horizontal space */
+      max-width: 48%; /* Keep the width below 50% */
+      box-sizing: border-box; /* Prevent padding from affecting width */
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add shadow for visual effect */
+      display: flex;
+      flex-direction: column;
+    }
+    h1 {
+      color: #333;
+      margin-top: 0; /* Remove default margin for heading */
+    }
+    table {
+      width: 100%; /* Set table width to 100% of its container */
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .footer {
+      background-color: #00308F;
+      color: white;
+      padding: 10px;
+      font-size: 0.8em;
+      text-align: center;
+    }
+    /* Error Page Styles */
+    .error-page {
+      display: none; /* Hide error page initially */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f8d7da;
+      text-align: center;
+    }
+    .error-page h1 {
+      color: #721c24;
+    }
+    .error-page p {
+      color: #856404;
+    }
+    .error-page button {
+      padding: 10px 20px;
+      background-color: #004AAD;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function showErrorPage() {
+      document.querySelector('.content').style.display = 'none'; // Hide content
+      document.querySelector('.error-page').style.display = 'flex'; // Show error page
+    }
+
+    function goBack() {
+      window.location.reload(); // Reload the current page
+    }
+  </script>
+</head>
+<body>
+  <div class="header">
+    <div class="logo-container">
+      <img src="https://i.postimg.cc/fVNRwtfZ/logo.png" alt="MGKVP University Logo" class="logo">
+      <span class="title">Mahatma Gandhi Kashi Vidyapith, Varanasi</span>
+    </div>
+    <div class="contact">
+      <div> +91-9219197569/9219486855</div>
+      <div>✉️ mgkvpdataverification@helpenable.com</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a onclick="showErrorPage()">Home</a>
+    <a onclick="showErrorPage()">Help and Instructions</a>
+    <a onclick="showErrorPage()">Apply for Entrance Exams</a>
+    <a onclick="showErrorPage()">Applicant Login</a>
+    <a onclick="showErrorPage()">Last Qual. Marks Edit</a>
+    <a onclick="showErrorPage()">Entrance Results</a>
+    <a onclick="showErrorPage()">Department Login</a>
+  </nav>
+  
+  <div class="content">
+    <div class="content-wrapper">
+      <div class="image-container">
+        <img src="https://i.postimg.cc/ZnkNkKCL/1726946731213.jpg" alt="MGKVP Image">
+      </div>
+      <div class="data-section">
+        <h1>Data of Marksheet Verification</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Roll Number</th>
+              <th>Name</th>
+              <th>Course</th>
+              <th>Year</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>66814101264</td>
+              <td>Supriya Nitin Bhoraokar</td>
+              <td>BA 1st year</td>
+              <td>2014</td>
+              <td>Verified</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  <div class="error-page">
+    <h1>Sorry, this page isn't available.</h1>
+          <p>The link you followed may be broken, or there is a problem with server, or the page may have been removed.</p>
+          <p> Please visit next time.</p>
+    <button onclick="goBack()">Go Back to MGKVP</button>
+  </div>
+
+  <footer class="footer">
+    <p>© 2024 - Mahatma Gandhi Kashi Vidyapith, Varanasi. All rights reserved.</p>
+    <p>For payments for this site are non-refundable and no chargebacks will be entertained. Read our Policy Statement first before continuing. In case of any problems related to this website, please contact us on +91-9219196389/9219186105 or mgkvpentrance@helpenable.com between 10:30 AM till 05:30 PM with your form number. Compliant Browsers are Google Chrome-46 / Mozilla Firefox-42 / Safari-9 / Opera-33 / Internet Explorer-11. Any other browser or previous version of pre-mentioned browsers may present undesirable/unexpected behaviour. Use browsehappy.com to get updates to your current browser.</p>
+  </footer>
+</body>
+</html>
